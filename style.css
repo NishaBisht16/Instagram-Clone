@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+#card{
+    height: 95%;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow-y: auto;
+    
+}
+#card::-webkit-scrollbar{
+    display: none;
+}
+#storiya{
+    height: 150px;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid #dadada;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+}
+#storiya::-webkit-scrollbar{
+    display: none;
+}
+ .head{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px;
+}
+.head i{
+    margin-right:20px;
+    font-size: 30px;
+}
+
+.story{
+    height: 80px;
+    width: 80px;
+    background-color: aqua;
+    border-radius: 50%;
+    border: 2px solid blue;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+#post-section{
+    height: 500px;
+    width:   100%;
+    padding: 20px;
+
+   
+    
+
+}
+#post-section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.icons i{
+    padding-left: 15px;
+    font-size: 25px;
+    
+  
+
+}
+
+
+
+
